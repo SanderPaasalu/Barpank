@@ -16,7 +16,7 @@ polka() // You can also use Express
 		compression({threshold: 0}),
 		json(),
 		session({
-			secret: 'conduit',
+			secret: 'french bourgeoisie',
 			resave: false,
 			saveUninitialized: true,
 			cookie: {
