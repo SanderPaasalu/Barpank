@@ -1,3 +1,10 @@
+<script context="module">
+    export async function preload({params}, {token}) {
+        if (token) {
+            this.redirect(302, `/overview`);
+        }
+    }
+</script>
 <script>
     import {goto, stores} from '@sapper/app';
     import {post} from 'utils.js';
@@ -14,7 +21,7 @@
         error = response.error;
 
         if (response.id) {
-            goto('/');
+            goto('/login');
         }
     }
 </script>

@@ -1,7 +1,3 @@
-<script>
-	import successkid from 'images/successkid.jpg';
-</script>
-
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -37,14 +33,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Welcome to Super Terrific Debt incorporated</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Welcome to STD inc.</h1>
 
 <figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Testing Sapper!</figcaption>
+	<img alt="Stonks is over 9000"
+		 src="https://image.shutterstock.com/image-vector/inscription-stonks-on-red-arrow-260nw-1923374459.jpg">
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>We, Super Terrific Debt incorporated, are the number 1 stonks bank in the world</strong></p>

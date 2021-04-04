@@ -59,9 +59,11 @@
 </style>
 <nav>
     <ul>
+        <li><a href="/">Home</a></li>
         {#if $session.token}
             <li><a aria-current="{segment === 'logout' ? 'page' : undefined}" href={logout}
                    on:click|preventDefault={logout}>Log Out</a></li>
+            <li><a aria-current="{segment === 'overview' ? 'page' : undefined}" href='/overview'>Overview</a></li>
         {:else}
             <li><a aria-current="{segment === 'register' ? 'page' : undefined}" href="register">Register</a></li>
             <li><a aria-current="{segment === 'login' ? 'page' : undefined}" href="login">Log In</a></li>
