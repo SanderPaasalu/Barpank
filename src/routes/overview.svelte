@@ -46,7 +46,7 @@
             <table class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                    <th>sender name</th>
+                    <th>name</th>
                     <th>amount</th>
                     <th>statusDetail</th>
                     <th>status</th>
